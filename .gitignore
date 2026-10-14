@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# SECRETS - contains the Azure OpenAI key, never commit
+Properties/launchSettings.json
+
+# Personal study notes (not part of the app)
+*.docx
+AI200-Learning-Notes.md
+
+# OS files
+Thumbs.db
+.DS_Store

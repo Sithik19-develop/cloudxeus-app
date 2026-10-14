@@ -1,0 +1,14 @@
+# Running from Visual Studio (F5):  https://localhost:7120
+# Running in Docker:                 http://localhost:8080
+@host = http://20.124.160.224:8080
+
+GET {{host}}/
+
+###
+
+POST {{host}}/chat
+Content-Type: application/json
+
+{
+  "prompt": "Explain Docker containers in one line"
+}
